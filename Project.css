@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0 0 0 / 88%);
+    background-image: url("w.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.i {
+    /*العنوان الرئيسي*/
+    background-color: #1f1f23;
+    color: #fff;
+    font-style: oblique;
+    margin: 20px auto;
+    border-top-left-radius: 240px 125px;
+    border-bottom-right-radius: 90px 52px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 1px 2px 1px rgb(131, 131, 131),
+        1px 1px 5px rgb(133, 131, 120);
+    font-size: 43px;
+
+}
+
+.ii {
+    /*العنوان الثانوي للصفحة*/
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.caption {
+
+    color: #ffffff;
+    font-style: oblique;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+
+#input {
+    /*خانة البحث*/
+    height: 46px;
+    border: 0;
+    background: rgba(255, 255, 255, .95);
+    width: 20%;
+    text-indent: 20px;
+    /*لموائمة الكلام داخل الالعنصر*/
+    border-radius: 30px;
+    font-size: 15px;
+    float: left;
+    box-shadow: 0 0 0 7px rgba(139, 145, 220, 0.3);
+    margin-left: 15px;
+
+}
+
+.Search {
+    /*كلاس البحث*/
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+}
+
+
+.o {
+    /*الشعار السفلي*/
+    position: relative;
+
+}
+
+
+.Type {
+    /*اسم الصفحات الفرعية*/
+    color: #ffffff;
+    padding-bottom: 5px;
+    margin: 2px;
+}
+
+
+table tr td {
+    padding-right: 50px;
+}
+
+.aud {
+    /*اسم جدول الموسيقى*/
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+audio {
+    /*لتنسيق الصوت*/
+    color: #689fe2;
+    background-color: #4d79ae;
+    border-style: groove;
+    border-width: 10px;
+    outline-color: #6a90bf;
+    border-color: #689fe2;
+}
+
+a {
+    /*الروابط*/
+    text-decoration: none;
+
+}
+
+td h2 {
+    /*عناوين الصفحات في الصفحة الرئيسية*/
+    padding-left: 20px;
+}
+
+.head {
+    color: #93bdf0;
+    font-size: 30px;
+    transition: 0.4s ease;
+}
+
+.head:hover {
+    color: #313162;
+    transform: scale(1.1);
+    background-color: rgb(164, 186, 227);
+    border-radius: 20px;
+    border-width: medium;
+}
+
+.image {
+    /*سرعة وموض الصورة عند الضغط عليها*/
+    transition: 0.4s ease;
+    width: 320px;
+    height: 300px;
+    border-radius: 25px
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.name {
+    color: #93bdf0;
+    padding-left: 100px
+}
+
+.name:hover {
+    color: #8e8edf;
+}
